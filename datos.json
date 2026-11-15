@@ -1,0 +1,2162 @@
+[
+ {
+  "fid": 785,
+  "nombre": "Valle de Mexicali–San Ignacio",
+  "descripcion": "Desde el sureste de Mexicali hacia Bladimiro León, Carriso y San Ignacio; abarca Baja California y Sonora.",
+  "rank_qgis": 1,
+  "rank_dae10": 6,
+  "rank_dae_nac": 39,
+  "N": 921,
+  "lat": 31.527762131594145,
+  "lon": -114.0026932480647,
+  "area_km2": 33606.22827061082,
+  "geo": {
+   "lat": 31.52776213155884,
+   "lon": -114.00269324793163,
+   "area_km2": 33615.70373443514,
+   "extension_km": 551.6545190001294,
+   "bbox": [
+    -115.9828694,
+    29.391549100000002,
+    -111.6495534,
+    32.6998692
+   ]
+  },
+  "qgis_index": 0.803047651825978,
+  "qgis_pct": 99.8914223669924,
+  "P": 0.419342818611876,
+  "Nd": 0.128159784697246,
+  "T": 16.4499945389597,
+  "Pv": 5.38771238607383e-08,
+  "sP": 0.790328590694062,
+  "sN": 0.90613405100918,
+  "sT": 0.6074999089826616,
+  "dae": 75.19387561040372,
+  "dae_csv": 75.19387561040372,
+  "aportes": {
+   "Precipitación": 23.709857720821862,
+   "NDVI": 27.1840215302754,
+   "Amplitud térmica": 24.299996359306462
+  },
+  "cobertura": 60.44362292051756,
+  "confianza": 70.0,
+  "regional": false,
+  "sens_min": 73.74948713918997,
+  "sens_max": 76.63826408161746,
+  "nac": {
+   "precip": {
+    "pct_mas_humedas": 79.04451682953311,
+    "min": 0.27237731218338,
+    "max": 1.35785249869029,
+    "med": 0.825118841036506
+   },
+   "ndvi": {
+    "pct_mas_verdes": 81.75895765472313,
+    "min": 0.0409758426249027,
+    "max": 0.405134543776512,
+    "med": 0.152010045945644
+   },
+   "rango": {
+    "pct_menor": 16.069489685124864,
+    "min": 9.45007934570313,
+    "max": 22.8310230396412,
+    "med": 18.1517333984375
+   },
+   "polvo": {
+    "pct_menor": 99.1313789359392,
+    "min": 3.72800235126647e-09,
+    "max": 9.80747392039423e-08,
+    "med": 7.8657258484327e-09
+   },
+   "dae": {
+    "med": 68.387216258049,
+    "max": 79.72691067771503
+   }
+  },
+  "nota": 9.804560260586321,
+  "P_qgis": 99.8914223669924,
+  "P_dae": 95.76547231270358,
+  "nota_qgis": 9.990228013029316,
+  "nota_dae": 9.618892508143322,
+  "clase_nac": "Análogo alto",
+  "conf_items": [
+   [
+    "Aridez / índice de vegetación (NDVI)",
+    "0.128",
+    "−0.1 a 0.15 → 5",
+    5
+   ],
+   [
+    "Tasa de precipitación real (GPM)",
+    "153 mm/año",
+    "0 a 50 mm/año → 5",
+    0
+   ],
+   [
+    "Amplitud térmica diurna",
+    "16.4 °C",
+    "25 a 250 °C → 5",
+    0
+   ],
+   [
+    "Latitud ecuatorial",
+    "31.53°",
+    "0–28° → 5 · 29–50° → 4",
+    4
+   ],
+   [
+    "Extensión del terreno",
+    "33,606,228,271 m²",
+    "≥ 747 000 m² → 5",
+    5
+   ]
+  ],
+  "conf": 56.0,
+  "lugares": [
+   {
+    "nombre": "Valle de Mexicali (SE de Mexicali), B.C.",
+    "lat": 32.538,
+    "lon": -115.369
+   },
+   {
+    "nombre": "Bladimiro León, Son.",
+    "lat": 31.756,
+    "lon": -112.66
+   },
+   {
+    "nombre": "Carriso, B.C.",
+    "lat": 30.579,
+    "lon": -115.035
+   },
+   {
+    "nombre": "San Ignacio, Son.",
+    "lat": 29.607,
+    "lon": -112.07
+   }
+  ],
+  "rank_nota": 6,
+  "int": {
+   "espacial": [
+    58.332311654090894,
+    82.5242698346575
+   ],
+   "pesos": [
+    73.74948713918997,
+    76.63826408161746
+   ],
+   "ambas": [
+    57.6928419327736,
+    84.153233632495
+   ]
+  },
+  "ena_int": [
+   5.54885993485342,
+   9.995114006514658
+  ],
+  "pct_top": 97.828447339848,
+  "vars": [
+   {
+    "k": "ndvi",
+    "valor": "0.128",
+    "s": 0.90613405100918,
+    "pct": 81.75895765472313,
+    "pct_txt": "Menos vegetación que el 82 % de las zonas del país"
+   },
+   {
+    "k": "precip",
+    "valor": "0.42 mm/día",
+    "s": 0.790328590694062,
+    "pct": 79.04451682953311,
+    "pct_txt": "Más seca que el 79 % de las zonas del país"
+   },
+   {
+    "k": "rango",
+    "valor": "16.4 °C",
+    "s": 0.6074999089826616,
+    "pct": 16.069489685124864,
+    "pct_txt": "Mayor amplitud que el 16 % de las zonas del país"
+   },
+   {
+    "k": "polvo",
+    "valor": "5.39 × 10⁻⁸",
+    "s": null,
+    "pct": 99.1313789359392,
+    "pct_txt": "Más polvo que el 99 % de las zonas del país"
+   }
+  ],
+  "favor": [
+   [
+    "Entre las zonas más análogas del país",
+    "En la Escala Nacional supera al 97.8 % de las 921 zonas candidatas de México."
+   ],
+   [
+    "Vegetación muy escasa",
+    "NDVI de 0.128, muy cerca del rango de referencia de Marte (0.1 o menos)."
+   ],
+   [
+    "Polvo atmosférico abundante",
+    "Más polvo que el 99 % de las zonas: buen escenario para probar la mitigación de polvo en paneles, sellos y óptica."
+   ],
+   [
+    "Superficie amplia",
+    "33,606 km² para recorridos largos de rovers y para desplegar infraestructura."
+   ],
+   [
+    "Localidades de referencia dentro de la zona",
+    "Valle de Mexicali, Bladimiro León, Son., Carriso, B.C.: puntos de acceso para el trabajo de campo."
+   ]
+  ],
+  "limit": [
+   [
+    "Oscilación térmica menor que la de Marte",
+    "16.4 °C frente a un mínimo de 40 °C en Marte. Es la mayor diferencia con Marte y resta 15.7 puntos al IAM."
+   ],
+   [
+    "Área natural protegida",
+    "Colinda con la Reserva de la Biosfera Alto Golfo de California y Delta del Río Colorado (Mexicali y San Luis Río Colorado). Hay que confirmar el traslape y los permisos con CONANP."
+   ],
+   [
+    "Variables por medir",
+    "34 de las 37 variables comparables (geología, suelo, mineralogía, pendiente, cuevas) aún no tienen dato y requieren capas oficiales o campañas de campo."
+   ]
+  ]
+ },
+ {
+  "fid": 105,
+  "nombre": "Isla Montague–norte de Isla Gore",
+  "descripcion": "Principalmente Isla Montague y una pequeña parte del extremo norte de Isla Gore.",
+  "rank_qgis": 2,
+  "rank_dae10": 9,
+  "rank_dae_nac": 53,
+  "N": 921,
+  "lat": 31.748669301111114,
+  "lon": -114.7496335922222,
+  "area_km2": 65.66281151982784,
+  "geo": {
+   "lat": 31.74866930198248,
+   "lon": -114.7496335953855,
+   "area_km2": 65.41915117949247,
+   "extension_km": 14.555864940892189,
+   "bbox": [
+    -114.7995408,
+    31.699873200000003,
+    -114.6995412,
+    31.799872800000003
+   ]
+  },
+  "qgis_index": 0.802944552898407,
+  "qgis_pct": 99.7828447339848,
+  "P": 0.3161246455378,
+  "Nd": 0.101699414176659,
+  "T": 9.45007934570313,
+  "Pv": 9.80747392039423e-08,
+  "sP": 0.8419376772311,
+  "sN": 0.9943352860778034,
+  "sT": 0.4908346557617188,
+  "dae": 74.72157512973585,
+  "dae_csv": 74.72157512973585,
+  "aportes": {
+   "Precipitación": 25.258130316933002,
+   "NDVI": 29.830058582334104,
+   "Amplitud térmica": 19.63338623046875
+  },
+  "cobertura": 60.44362292051756,
+  "confianza": 70.0,
+  "regional": false,
+  "sens_min": 72.15776417437945,
+  "sens_max": 77.28538608509224,
+  "nac": {
+   "precip": {
+    "pct_mas_humedas": 94.02823018458197,
+    "min": 0.27237731218338,
+    "max": 1.35785249869029,
+    "med": 0.825118841036506
+   },
+   "ndvi": {
+    "pct_mas_verdes": 95.76547231270358,
+    "min": 0.0409758426249027,
+    "max": 0.405134543776512,
+    "med": 0.152010045945644
+   },
+   "rango": {
+    "pct_menor": 0.0,
+    "min": 9.45007934570313,
+    "max": 22.8310230396412,
+    "med": 18.1517333984375
+   },
+   "polvo": {
+    "pct_menor": 99.8914223669924,
+    "min": 3.72800235126647e-09,
+    "max": 9.80747392039423e-08,
+    "med": 7.8657258484327e-09
+   },
+   "dae": {
+    "med": 68.387216258049,
+    "max": 79.72691067771503
+   }
+  },
+  "nota": 9.731270358306187,
+  "P_qgis": 99.7828447339848,
+  "P_dae": 94.24538545059717,
+  "nota_qgis": 9.980456026058633,
+  "nota_dae": 9.482084690553744,
+  "clase_nac": "Análogo alto",
+  "conf_items": [
+   [
+    "Aridez / índice de vegetación (NDVI)",
+    "0.102",
+    "−0.1 a 0.15 → 5",
+    5
+   ],
+   [
+    "Tasa de precipitación real (GPM)",
+    "115 mm/año",
+    "0 a 50 mm/año → 5",
+    0
+   ],
+   [
+    "Amplitud térmica diurna",
+    "9.5 °C",
+    "25 a 250 °C → 5",
+    0
+   ],
+   [
+    "Latitud ecuatorial",
+    "31.75°",
+    "0–28° → 5 · 29–50° → 4",
+    4
+   ],
+   [
+    "Extensión del terreno",
+    "65,662,812 m²",
+    "≥ 747 000 m² → 5",
+    5
+   ]
+  ],
+  "conf": 56.0,
+  "lugares": [
+   {
+    "nombre": "Isla Montague",
+    "lat": 31.743,
+    "lon": -114.7457
+   }
+  ],
+  "rank_nota": 8,
+  "int": {
+   "espacial": [
+    70.81622276554505,
+    75.68575982401768
+   ],
+   "pesos": [
+    72.15776417437945,
+    77.28538608509224
+   ],
+   "ambas": [
+    68.35028220082323,
+    78.1626378592352
+   ]
+  },
+  "ena_int": [
+   7.6938110749185675,
+   9.97068403908795
+  ],
+  "pct_top": 97.01411509229098,
+  "vars": [
+   {
+    "k": "ndvi",
+    "valor": "0.102",
+    "s": 0.9943352860778034,
+    "pct": 95.76547231270358,
+    "pct_txt": "Menos vegetación que el 96 % de las zonas del país"
+   },
+   {
+    "k": "precip",
+    "valor": "0.32 mm/día",
+    "s": 0.8419376772311,
+    "pct": 94.02823018458197,
+    "pct_txt": "Más seca que el 94 % de las zonas del país"
+   },
+   {
+    "k": "rango",
+    "valor": "9.5 °C",
+    "s": 0.4908346557617188,
+    "pct": 0.0,
+    "pct_txt": "Mayor amplitud que el 0 % de las zonas del país"
+   },
+   {
+    "k": "polvo",
+    "valor": "9.81 × 10⁻⁸",
+    "s": null,
+    "pct": 99.8914223669924,
+    "pct_txt": "Más polvo que el 100 % de las zonas del país"
+   }
+  ],
+  "favor": [
+   [
+    "Entre las zonas más análogas del país",
+    "En la Escala Nacional supera al 97.0 % de las 921 zonas candidatas de México."
+   ],
+   [
+    "Vegetación muy escasa",
+    "NDVI de 0.102, muy cerca del rango de referencia de Marte (0.1 o menos)."
+   ],
+   [
+    "Hiperaridez",
+    "0.32 mm/día de lluvia: más seca que el 94 % de las zonas candidatas."
+   ],
+   [
+    "Polvo atmosférico abundante",
+    "Más polvo que el 100 % de las zonas: buen escenario para probar la mitigación de polvo en paneles, sellos y óptica."
+   ],
+   [
+    "Extensión suficiente para aterrizajes",
+    "14.6 km de extensión máxima, que alcanza para una elipse de aterrizaje de hasta 10 km."
+   ],
+   [
+    "Localidades de referencia dentro de la zona",
+    "Isla Montague: puntos de acceso para el trabajo de campo."
+   ]
+  ],
+  "limit": [
+   [
+    "Oscilación térmica menor que la de Marte",
+    "9.5 °C frente a un mínimo de 40 °C en Marte. Es la mayor diferencia con Marte y resta 20.4 puntos al IAM."
+   ],
+   [
+    "Superficie reducida",
+    "66 km², poco espacio para operaciones de gran escala o recorridos largos."
+   ],
+   [
+    "Acceso marítimo",
+    "Es una isla sedimentaria en la desembocadura del río Colorado: el acceso es solo por mar y el terreno está influido por las mareas."
+   ],
+   [
+    "Área natural protegida",
+    "Isla Montague está en el área de la Reserva de la Biosfera Alto Golfo de California y Delta del Río Colorado y entre las islas del Golfo de California reconocidas por la UNESCO. El trabajo de campo requiere permisos de CONANP."
+   ],
+   [
+    "Variables por medir",
+    "34 de las 37 variables comparables (geología, suelo, mineralogía, pendiente, cuevas) aún no tienen dato y requieren capas oficiales o campañas de campo."
+   ]
+  ]
+ },
+ {
+  "fid": 1397,
+  "nombre": "Salvador–El Mezquitoso–La Ballena",
+  "descripcion": "Desde Salvador hacia El Mezquitoso y al sur hasta La Ballena, en Baja California y Baja California Sur.",
+  "rank_qgis": 3,
+  "rank_dae10": 3,
+  "rank_dae_nac": 3,
+  "N": 921,
+  "lat": 27.331446418942022,
+  "lon": -113.46958399658429,
+  "area_km2": 14055.36120884893,
+  "geo": {
+   "lat": 27.33144641894849,
+   "lon": -113.4695839966142,
+   "area_km2": 14009.520752936602,
+   "extension_km": 314.7118584969135,
+   "bbox": [
+    -114.3412093,
+    26.316561400000005,
+    -112.3912171,
+    28.566552400000003
+   ]
+  },
+  "qgis_index": 0.772576860949099,
+  "qgis_pct": 99.6742671009772,
+  "P": 0.28609171532911,
+  "Nd": 0.117542571517321,
+  "T": 16.925983594488,
+  "Pv": 2.22743457300438e-08,
+  "sP": 0.856954142335445,
+  "sN": 0.94152476160893,
+  "sT": 0.6154330599081332,
+  "dae": 78.57168951465655,
+  "dae_csv": 78.57168951465655,
+  "aportes": {
+   "Precipitación": 25.70862427006335,
+   "NDVI": 28.2457428482679,
+   "Amplitud térmica": 24.617322396325328
+  },
+  "cobertura": 60.44362292051756,
+  "confianza": 70.0,
+  "regional": false,
+  "sens_min": 76.86885116227225,
+  "sens_max": 80.2745278670409,
+  "nac": {
+   "precip": {
+    "pct_mas_humedas": 99.1313789359392,
+    "min": 0.27237731218338,
+    "max": 1.35785249869029,
+    "med": 0.825118841036506
+   },
+   "ndvi": {
+    "pct_mas_verdes": 90.33659066232356,
+    "min": 0.0409758426249027,
+    "max": 0.405134543776512,
+    "med": 0.152010045945644
+   },
+   "rango": {
+    "pct_menor": 23.561346362649292,
+    "min": 9.45007934570313,
+    "max": 22.8310230396412,
+    "med": 18.1517333984375
+   },
+   "polvo": {
+    "pct_menor": 95.43973941368078,
+    "min": 3.72800235126647e-09,
+    "max": 9.80747392039423e-08,
+    "med": 7.8657258484327e-09
+   },
+   "dae": {
+    "med": 68.387216258049,
+    "max": 79.72691067771503
+   }
+  },
+  "nota": 9.97068403908795,
+  "P_qgis": 99.6742671009772,
+  "P_dae": 99.6742671009772,
+  "nota_qgis": 9.97068403908795,
+  "nota_dae": 9.97068403908795,
+  "clase_nac": "Análogo alto",
+  "conf_items": [
+   [
+    "Aridez / índice de vegetación (NDVI)",
+    "0.118",
+    "−0.1 a 0.15 → 5",
+    5
+   ],
+   [
+    "Tasa de precipitación real (GPM)",
+    "104 mm/año",
+    "0 a 50 mm/año → 5",
+    0
+   ],
+   [
+    "Amplitud térmica diurna",
+    "16.9 °C",
+    "25 a 250 °C → 5",
+    0
+   ],
+   [
+    "Latitud ecuatorial",
+    "27.33°",
+    "0–28° → 5 · 29–50° → 4",
+    5
+   ],
+   [
+    "Extensión del terreno",
+    "14,055,361,209 m²",
+    "≥ 747 000 m² → 5",
+    5
+   ]
+  ],
+  "conf": 60.0,
+  "lugares": [
+   {
+    "nombre": "Salvador, B.C.",
+    "lat": 28.341,
+    "lon": -113.948
+   },
+   {
+    "nombre": "El Mezquitoso, B.C.S.",
+    "lat": 27.31,
+    "lon": -114.24
+   },
+   {
+    "nombre": "La Ballena, B.C.S.",
+    "lat": 26.377,
+    "lon": -112.552
+   }
+  ],
+  "rank_nota": 2,
+  "int": {
+   "espacial": [
+    71.16389408508937,
+    82.85403332412243
+   ],
+   "pesos": [
+    76.86885116227225,
+    80.2745278670409
+   ],
+   "ambas": [
+    69.70224202195806,
+    84.47701142460107
+   ]
+  },
+  "ena_int": [
+   8.539087947882738,
+   9.985342019543975
+  ],
+  "pct_top": 99.6742671009772,
+  "vars": [
+   {
+    "k": "ndvi",
+    "valor": "0.118",
+    "s": 0.94152476160893,
+    "pct": 90.33659066232356,
+    "pct_txt": "Menos vegetación que el 90 % de las zonas del país"
+   },
+   {
+    "k": "precip",
+    "valor": "0.29 mm/día",
+    "s": 0.856954142335445,
+    "pct": 99.1313789359392,
+    "pct_txt": "Más seca que el 99 % de las zonas del país"
+   },
+   {
+    "k": "rango",
+    "valor": "16.9 °C",
+    "s": 0.6154330599081332,
+    "pct": 23.561346362649292,
+    "pct_txt": "Mayor amplitud que el 24 % de las zonas del país"
+   },
+   {
+    "k": "polvo",
+    "valor": "2.23 × 10⁻⁸",
+    "s": null,
+    "pct": 95.43973941368078,
+    "pct_txt": "Más polvo que el 95 % de las zonas del país"
+   }
+  ],
+  "favor": [
+   [
+    "Entre las zonas más análogas del país",
+    "En la Escala Nacional supera al 99.7 % de las 921 zonas candidatas de México."
+   ],
+   [
+    "Vegetación muy escasa",
+    "NDVI de 0.118, muy cerca del rango de referencia de Marte (0.1 o menos)."
+   ],
+   [
+    "Hiperaridez",
+    "0.29 mm/día de lluvia: más seca que el 99 % de las zonas candidatas."
+   ],
+   [
+    "Polvo atmosférico abundante",
+    "Más polvo que el 95 % de las zonas: buen escenario para probar la mitigación de polvo en paneles, sellos y óptica."
+   ],
+   [
+    "Superficie amplia",
+    "14,055 km² para recorridos largos de rovers y para desplegar infraestructura."
+   ],
+   [
+    "Latitud favorable para lanzamientos",
+    "27.33° N, dentro del rango de 0 a 28° que aprovecha mejor la rotación terrestre."
+   ],
+   [
+    "Localidades de referencia dentro de la zona",
+    "Salvador, B.C., El Mezquitoso, B.C.S., La Ballena, B.C.S.: puntos de acceso para el trabajo de campo."
+   ]
+  ],
+  "limit": [
+   [
+    "Oscilación térmica menor que la de Marte",
+    "16.9 °C frente a un mínimo de 40 °C en Marte. Es la mayor diferencia con Marte y resta 15.4 puntos al IAM."
+   ],
+   [
+    "Área natural protegida",
+    "Abarca la franja del Valle de los Cirios (Baja California) y el municipio de Mulegé, donde está la Reserva de la Biosfera El Vizcaíno. Probable traslape con ambas áreas."
+   ],
+   [
+    "Variables por medir",
+    "34 de las 37 variables comparables (geología, suelo, mineralogía, pendiente, cuevas) aún no tienen dato y requieren capas oficiales o campañas de campo."
+   ]
+  ]
+ },
+ {
+  "fid": 1218,
+  "nombre": "Ejido Alfredo Vladimir Bonfil",
+  "descripcion": "Principalmente el ejido Alfredo Vladimir Bonfil, Baja California Sur.",
+  "rank_qgis": 4,
+  "rank_dae10": 7,
+  "rank_dae_nac": 46,
+  "N": 921,
+  "lat": 27.391841570080324,
+  "lon": -112.67316041666663,
+  "area_km2": 189.51462702297974,
+  "geo": {
+   "lat": 27.39184156936154,
+   "lon": -112.67316041367651,
+   "area_km2": 188.96377032250166,
+   "extension_km": 25.793985108914,
+   "bbox": [
+    -112.7828822,
+    27.3165574,
+    -112.5912163,
+    27.474890100000003
+   ]
+  },
+  "qgis_index": 0.772463093560383,
+  "qgis_pct": 99.5656894679696,
+  "P": 0.372766156392883,
+  "Nd": 0.14845442017877,
+  "T": 18.2368550128247,
+  "Pv": 2.2036707016957e-08,
+  "sP": 0.8136169218035585,
+  "sN": 0.8384852660707667,
+  "sT": 0.6372809168804117,
+  "dae": 75.05430231144622,
+  "dae_csv": 75.05430231144622,
+  "aportes": {
+   "Precipitación": 24.408507654106756,
+   "NDVI": 25.154557982123002,
+   "Amplitud térmica": 25.491236675216467
+  },
+  "cobertura": 60.44362292051756,
+  "confianza": 70.0,
+  "regional": false,
+  "sens_min": 73.92168124910572,
+  "sens_max": 76.18692337378673,
+  "nac": {
+   "precip": {
+    "pct_mas_humedas": 84.36482084690553,
+    "min": 0.27237731218338,
+    "max": 1.35785249869029,
+    "med": 0.825118841036506
+   },
+   "ndvi": {
+    "pct_mas_verdes": 55.26601520086862,
+    "min": 0.0409758426249027,
+    "max": 0.405134543776512,
+    "med": 0.152010045945644
+   },
+   "rango": {
+    "pct_menor": 52.55157437567861,
+    "min": 9.45007934570313,
+    "max": 22.8310230396412,
+    "med": 18.1517333984375
+   },
+   "polvo": {
+    "pct_menor": 95.00542888165037,
+    "min": 3.72800235126647e-09,
+    "max": 9.80747392039423e-08,
+    "med": 7.8657258484327e-09
+   },
+   "dae": {
+    "med": 68.387216258049,
+    "max": 79.72691067771503
+   }
+  },
+  "nota": 9.7557003257329,
+  "P_qgis": 99.5656894679696,
+  "P_dae": 95.00542888165037,
+  "nota_qgis": 9.960912052117264,
+  "nota_dae": 9.550488599348533,
+  "clase_nac": "Análogo alto",
+  "conf_items": [
+   [
+    "Aridez / índice de vegetación (NDVI)",
+    "0.148",
+    "−0.1 a 0.15 → 5",
+    5
+   ],
+   [
+    "Tasa de precipitación real (GPM)",
+    "136 mm/año",
+    "0 a 50 mm/año → 5",
+    0
+   ],
+   [
+    "Amplitud térmica diurna",
+    "18.2 °C",
+    "25 a 250 °C → 5",
+    0
+   ],
+   [
+    "Latitud ecuatorial",
+    "27.39°",
+    "0–28° → 5 · 29–50° → 4",
+    5
+   ],
+   [
+    "Extensión del terreno",
+    "189,514,627 m²",
+    "≥ 747 000 m² → 5",
+    5
+   ]
+  ],
+  "conf": 60.0,
+  "lugares": [
+   {
+    "nombre": "Ejido Lic. Alfredo Vladimir Bonfil, B.C.S.",
+    "lat": 27.395,
+    "lon": -112.664
+   }
+  ],
+  "rank_nota": 7,
+  "int": {
+   "espacial": [
+    68.5634694993496,
+    80.8694718837738
+   ],
+   "pesos": [
+    73.92168124910572,
+    76.18692337378673
+   ],
+   "ambas": [
+    67.5287930816412,
+    82.09432190418244
+   ]
+  },
+  "ena_int": [
+   7.0732899022801305,
+   9.980456026058633
+  ],
+  "pct_top": 97.28555917480999,
+  "vars": [
+   {
+    "k": "ndvi",
+    "valor": "0.148",
+    "s": 0.8384852660707667,
+    "pct": 55.26601520086862,
+    "pct_txt": "Menos vegetación que el 55 % de las zonas del país"
+   },
+   {
+    "k": "precip",
+    "valor": "0.37 mm/día",
+    "s": 0.8136169218035585,
+    "pct": 84.36482084690553,
+    "pct_txt": "Más seca que el 84 % de las zonas del país"
+   },
+   {
+    "k": "rango",
+    "valor": "18.2 °C",
+    "s": 0.6372809168804117,
+    "pct": 52.55157437567861,
+    "pct_txt": "Mayor amplitud que el 53 % de las zonas del país"
+   },
+   {
+    "k": "polvo",
+    "valor": "2.20 × 10⁻⁸",
+    "s": null,
+    "pct": 95.00542888165037,
+    "pct_txt": "Más polvo que el 95 % de las zonas del país"
+   }
+  ],
+  "favor": [
+   [
+    "Entre las zonas más análogas del país",
+    "En la Escala Nacional supera al 97.3 % de las 921 zonas candidatas de México."
+   ],
+   [
+    "Polvo atmosférico abundante",
+    "Más polvo que el 95 % de las zonas: buen escenario para probar la mitigación de polvo en paneles, sellos y óptica."
+   ],
+   [
+    "Extensión suficiente para aterrizajes",
+    "25.8 km de extensión máxima, que alcanza para una elipse de aterrizaje de hasta 10 km."
+   ],
+   [
+    "Latitud favorable para lanzamientos",
+    "27.39° N, dentro del rango de 0 a 28° que aprovecha mejor la rotación terrestre."
+   ],
+   [
+    "Localidades de referencia dentro de la zona",
+    "Ejido Lic. Alfredo Vladimir Bonfil, B.C.S.: puntos de acceso para el trabajo de campo."
+   ]
+  ],
+  "limit": [
+   [
+    "Oscilación térmica menor que la de Marte",
+    "18.2 °C frente a un mínimo de 40 °C en Marte. Es la mayor diferencia con Marte y resta 14.5 puntos al IAM."
+   ],
+   [
+    "Algo de vegetación",
+    "NDVI de 0.148, por encima del rango de referencia de Marte (0.1 o menos)."
+   ],
+   [
+    "Área natural protegida",
+    "Está en el municipio de Mulegé, que en su mayor parte pertenece a la Reserva de la Biosfera El Vizcaíno. Hay que confirmar el traslape con CONANP."
+   ],
+   [
+    "Variables por medir",
+    "34 de las 37 variables comparables (geología, suelo, mineralogía, pendiente, cuevas) aún no tienen dato y requieren capas oficiales o campañas de campo."
+   ]
+  ]
+ },
+ {
+  "fid": 741,
+  "nombre": "Junco–Calamajué",
+  "descripcion": "Desde Junco hasta Calamajué, Baja California.",
+  "rank_qgis": 5,
+  "rank_dae10": 1,
+  "rank_dae_nac": 1,
+  "N": 921,
+  "lat": 29.777979627100837,
+  "lon": -114.42909410252099,
+  "area_km2": 354.32630621100617,
+  "geo": {
+   "lat": 29.777979626319624,
+   "lon": -114.42909409951068,
+   "area_km2": 353.11337530612946,
+   "extension_km": 51.595303239403165,
+   "bbox": [
+    -114.56620840000001,
+    29.599881600000003,
+    -114.29120950000001,
+    29.999880000000005
+   ]
+  },
+  "qgis_index": 0.771752674915209,
+  "qgis_pct": 99.45711183496199,
+  "P": 0.30693759982075,
+  "Nd": 0.0995043086655,
+  "T": 16.4964620125394,
+  "Pv": 2.13249707490987e-08,
+  "sP": 0.846531200089625,
+  "sN": 1.0,
+  "sT": 0.6082743668756567,
+  "dae": 79.72691067771503,
+  "dae_csv": 79.72691067771503,
+  "aportes": {
+   "Precipitación": 25.39593600268875,
+   "NDVI": 30.0,
+   "Amplitud térmica": 24.33097467502627
+  },
+  "cobertura": 60.44362292051756,
+  "confianza": 70.0,
+  "regional": false,
+  "sens_min": 77.83696327870008,
+  "sens_max": 81.61685807672995,
+  "nac": {
+   "precip": {
+    "pct_mas_humedas": 95.76547231270358,
+    "min": 0.27237731218338,
+    "max": 1.35785249869029,
+    "med": 0.825118841036506
+   },
+   "ndvi": {
+    "pct_mas_verdes": 96.19978284473399,
+    "min": 0.0409758426249027,
+    "max": 0.405134543776512,
+    "med": 0.152010045945644
+   },
+   "rango": {
+    "pct_menor": 16.612377850162865,
+    "min": 9.45007934570313,
+    "max": 22.8310230396412,
+    "med": 18.1517333984375
+   },
+   "polvo": {
+    "pct_menor": 94.57111834961998,
+    "min": 3.72800235126647e-09,
+    "max": 9.80747392039423e-08,
+    "med": 7.8657258484327e-09
+   },
+   "dae": {
+    "med": 68.387216258049,
+    "max": 79.72691067771503
+   }
+  },
+  "nota": 9.97068403908795,
+  "P_qgis": 99.45711183496199,
+  "P_dae": 99.8914223669924,
+  "nota_qgis": 9.95114006514658,
+  "nota_dae": 9.990228013029316,
+  "clase_nac": "Análogo alto",
+  "conf_items": [
+   [
+    "Aridez / índice de vegetación (NDVI)",
+    "0.100",
+    "−0.1 a 0.15 → 5",
+    5
+   ],
+   [
+    "Tasa de precipitación real (GPM)",
+    "112 mm/año",
+    "0 a 50 mm/año → 5",
+    0
+   ],
+   [
+    "Amplitud térmica diurna",
+    "16.5 °C",
+    "25 a 250 °C → 5",
+    0
+   ],
+   [
+    "Latitud ecuatorial",
+    "29.78°",
+    "0–28° → 5 · 29–50° → 4",
+    4
+   ],
+   [
+    "Extensión del terreno",
+    "354,326,306 m²",
+    "≥ 747 000 m² → 5",
+    5
+   ]
+  ],
+  "conf": 56.0,
+  "lugares": [
+   {
+    "nombre": "Junco, B.C.",
+    "lat": 29.946,
+    "lon": -114.511
+   },
+   {
+    "nombre": "Calamajué, B.C.",
+    "lat": 29.627,
+    "lon": -114.388
+   }
+  ],
+  "rank_nota": 1,
+  "int": {
+   "espacial": [
+    75.14986963570117,
+    81.97214624782403
+   ],
+   "pesos": [
+    77.83696327870008,
+    81.61685807672995
+   ],
+   "ambas": [
+    73.17242692261934,
+    83.56994477560123
+   ]
+  },
+  "ena_int": [
+   9.462540716612377,
+   9.975570032573291
+  ],
+  "pct_top": 99.6742671009772,
+  "vars": [
+   {
+    "k": "ndvi",
+    "valor": "0.100",
+    "s": 1.0,
+    "pct": 96.19978284473399,
+    "pct_txt": "Menos vegetación que el 96 % de las zonas del país"
+   },
+   {
+    "k": "precip",
+    "valor": "0.31 mm/día",
+    "s": 0.846531200089625,
+    "pct": 95.76547231270358,
+    "pct_txt": "Más seca que el 96 % de las zonas del país"
+   },
+   {
+    "k": "rango",
+    "valor": "16.5 °C",
+    "s": 0.6082743668756567,
+    "pct": 16.612377850162865,
+    "pct_txt": "Mayor amplitud que el 17 % de las zonas del país"
+   },
+   {
+    "k": "polvo",
+    "valor": "2.13 × 10⁻⁸",
+    "s": null,
+    "pct": 94.57111834961998,
+    "pct_txt": "Más polvo que el 95 % de las zonas del país"
+   }
+  ],
+  "favor": [
+   [
+    "Entre las zonas más análogas del país",
+    "En la Escala Nacional supera al 99.7 % de las 921 zonas candidatas de México."
+   ],
+   [
+    "Superficie prácticamente desnuda",
+    "NDVI de 0.100, dentro del rango de referencia de Marte (0.1 o menos)."
+   ],
+   [
+    "Hiperaridez",
+    "0.31 mm/día de lluvia: más seca que el 96 % de las zonas candidatas."
+   ],
+   [
+    "Polvo atmosférico abundante",
+    "Más polvo que el 95 % de las zonas: buen escenario para probar la mitigación de polvo en paneles, sellos y óptica."
+   ],
+   [
+    "Extensión suficiente para aterrizajes",
+    "51.6 km de extensión máxima, que alcanza para una elipse de aterrizaje de hasta 10 km."
+   ],
+   [
+    "Localidades de referencia dentro de la zona",
+    "Junco, B.C., Calamajué, B.C.: puntos de acceso para el trabajo de campo."
+   ]
+  ],
+  "limit": [
+   [
+    "Oscilación térmica menor que la de Marte",
+    "16.5 °C frente a un mínimo de 40 °C en Marte. Es la mayor diferencia con Marte y resta 15.7 puntos al IAM."
+   ],
+   [
+    "Área natural protegida",
+    "Está en la franja de 28° a 30° N de Baja California que cubre el Área de Protección de Flora y Fauna Valle de los Cirios. Probablemente requiere permisos de CONANP."
+   ],
+   [
+    "Variables por medir",
+    "34 de las 37 variables comparables (geología, suelo, mineralogía, pendiente, cuevas) aún no tienen dato y requieren capas oficiales o campañas de campo."
+   ]
+  ]
+ },
+ {
+  "fid": 1197,
+  "nombre": "Bahía Tortugas–La Magnesita",
+  "descripcion": "Desde Bahía Tortugas hacia el sureste hasta La Magnesita, Baja California Sur.",
+  "rank_qgis": 6,
+  "rank_dae10": 4,
+  "rank_dae_nac": 4,
+  "N": 921,
+  "lat": 27.65668174324407,
+  "lon": -114.56687089007004,
+  "area_km2": 1303.6876861338187,
+  "geo": {
+   "lat": 27.656681743147946,
+   "lon": -114.5668708896812,
+   "area_km2": 1300.1559201180935,
+   "extension_km": 67.34329947938693,
+   "bbox": [
+    -114.9245403,
+    27.483223400000004,
+    -114.3412093,
+    27.7998888
+   ]
+  },
+  "qgis_index": 0.766119101294683,
+  "qgis_pct": 99.3485342019544,
+  "P": 0.385738729805744,
+  "Nd": 0.106833726933566,
+  "T": 17.2198287972754,
+  "Pv": 1.58718329723558e-08,
+  "sP": 0.807130635097128,
+  "sN": 0.9772209102214466,
+  "sT": 0.62033047995459,
+  "dae": 78.34376555774084,
+  "dae_csv": 78.34376555774084,
+  "aportes": {
+   "Precipitación": 24.21391905291384,
+   "NDVI": 29.316627306643397,
+   "Amplitud térmica": 24.8132191981836
+  },
+  "cobertura": 60.44362292051756,
+  "confianza": 70.0,
+  "regional": false,
+  "sens_min": 76.71269380151266,
+  "sens_max": 79.97483731396903,
+  "nac": {
+   "precip": {
+    "pct_mas_humedas": 82.08469055374593,
+    "min": 0.27237731218338,
+    "max": 1.35785249869029,
+    "med": 0.825118841036506
+   },
+   "ndvi": {
+    "pct_mas_verdes": 94.57111834961998,
+    "min": 0.0409758426249027,
+    "max": 0.405134543776512,
+    "med": 0.152010045945644
+   },
+   "rango": {
+    "pct_menor": 27.25298588490771,
+    "min": 9.45007934570313,
+    "max": 22.8310230396412,
+    "med": 18.1517333984375
+   },
+   "polvo": {
+    "pct_menor": 87.40499457111835,
+    "min": 3.72800235126647e-09,
+    "max": 9.80747392039423e-08,
+    "med": 7.8657258484327e-09
+   },
+   "dae": {
+    "med": 68.387216258049,
+    "max": 79.72691067771503
+   }
+  },
+  "nota": 9.95114006514658,
+  "P_qgis": 99.3485342019544,
+  "P_dae": 99.5656894679696,
+  "nota_qgis": 9.941368078175895,
+  "nota_dae": 9.960912052117264,
+  "clase_nac": "Análogo alto",
+  "conf_items": [
+   [
+    "Aridez / índice de vegetación (NDVI)",
+    "0.107",
+    "−0.1 a 0.15 → 5",
+    5
+   ],
+   [
+    "Tasa de precipitación real (GPM)",
+    "141 mm/año",
+    "0 a 50 mm/año → 5",
+    0
+   ],
+   [
+    "Amplitud térmica diurna",
+    "17.2 °C",
+    "25 a 250 °C → 5",
+    0
+   ],
+   [
+    "Latitud ecuatorial",
+    "27.66°",
+    "0–28° → 5 · 29–50° → 4",
+    5
+   ],
+   [
+    "Extensión del terreno",
+    "1,303,687,686 m²",
+    "≥ 747 000 m² → 5",
+    5
+   ]
+  ],
+  "conf": 60.0,
+  "lugares": [
+   {
+    "nombre": "Bahía Tortugas, B.C.S.",
+    "lat": 27.745,
+    "lon": -114.874
+   },
+   {
+    "nombre": "La Magnesita, B.C.S.",
+    "lat": 27.513,
+    "lon": -114.361
+   }
+  ],
+  "rank_nota": 3,
+  "int": {
+   "espacial": [
+    67.59237561225893,
+    82.64848570823669
+   ],
+   "pesos": [
+    76.71269380151266,
+    79.97483731396903
+   ],
+   "ambas": [
+    66.62338158130649,
+    84.13829155445099
+   ]
+  },
+  "ena_int": [
+   6.584690553745928,
+   9.97068403908795
+  ],
+  "pct_top": 99.457111834962,
+  "vars": [
+   {
+    "k": "ndvi",
+    "valor": "0.107",
+    "s": 0.9772209102214466,
+    "pct": 94.57111834961998,
+    "pct_txt": "Menos vegetación que el 95 % de las zonas del país"
+   },
+   {
+    "k": "precip",
+    "valor": "0.39 mm/día",
+    "s": 0.807130635097128,
+    "pct": 82.08469055374593,
+    "pct_txt": "Más seca que el 82 % de las zonas del país"
+   },
+   {
+    "k": "rango",
+    "valor": "17.2 °C",
+    "s": 0.62033047995459,
+    "pct": 27.25298588490771,
+    "pct_txt": "Mayor amplitud que el 27 % de las zonas del país"
+   },
+   {
+    "k": "polvo",
+    "valor": "1.59 × 10⁻⁸",
+    "s": null,
+    "pct": 87.40499457111835,
+    "pct_txt": "Más polvo que el 87 % de las zonas del país"
+   }
+  ],
+  "favor": [
+   [
+    "Entre las zonas más análogas del país",
+    "En la Escala Nacional supera al 99.5 % de las 921 zonas candidatas de México."
+   ],
+   [
+    "Vegetación muy escasa",
+    "NDVI de 0.107, muy cerca del rango de referencia de Marte (0.1 o menos)."
+   ],
+   [
+    "Polvo atmosférico abundante",
+    "Más polvo que el 87 % de las zonas: buen escenario para probar la mitigación de polvo en paneles, sellos y óptica."
+   ],
+   [
+    "Superficie amplia",
+    "1,304 km² para recorridos largos de rovers y para desplegar infraestructura."
+   ],
+   [
+    "Latitud favorable para lanzamientos",
+    "27.66° N, dentro del rango de 0 a 28° que aprovecha mejor la rotación terrestre."
+   ],
+   [
+    "Localidades de referencia dentro de la zona",
+    "Bahía Tortugas, B.C.S., La Magnesita, B.C.S.: puntos de acceso para el trabajo de campo."
+   ]
+  ],
+  "limit": [
+   [
+    "Oscilación térmica menor que la de Marte",
+    "17.2 °C frente a un mínimo de 40 °C en Marte. Es la mayor diferencia con Marte y resta 15.2 puntos al IAM."
+   ],
+   [
+    "Área natural protegida",
+    "Bahía Tortugas es una comunidad dentro de la Reserva de la Biosfera El Vizcaíno. El trabajo de campo requiere permisos de CONANP."
+   ],
+   [
+    "Variables por medir",
+    "34 de las 37 variables comparables (geología, suelo, mineralogía, pendiente, cuevas) aún no tienen dato y requieren capas oficiales o campañas de campo."
+   ]
+  ]
+ },
+ {
+  "fid": 1011,
+  "nombre": "Agua de Soda",
+  "descripcion": "Principalmente el área de Agua de Soda, Baja California.",
+  "rank_qgis": 7,
+  "rank_dae10": 5,
+  "rank_dae_nac": 16,
+  "N": 921,
+  "lat": 28.624753225396823,
+  "lon": -113.32752287857143,
+  "area_km2": 94.84891259003354,
+  "geo": {
+   "lat": 28.62475322506202,
+   "lon": -113.3275228772534,
+   "area_km2": 94.5519285351038,
+   "extension_km": 18.497572413864695,
+   "bbox": [
+    -113.416213,
+    28.566552400000003,
+    -113.2578803,
+    28.658218700000003
+   ]
+  },
+  "qgis_index": 0.764815645558493,
+  "qgis_pct": 99.2399565689468,
+  "P": 0.320539838264859,
+  "Nd": 0.143238415498109,
+  "T": 18.5399504162016,
+  "Pv": 1.15410352879369e-08,
+  "sP": 0.8397300808675705,
+  "sN": 0.8558719483396366,
+  "sT": 0.6423325069366933,
+  "dae": 76.56136115368393,
+  "dae_csv": 76.56136115368393,
+  "aportes": {
+   "Precipitación": 25.191902426027116,
+   "NDVI": 25.6761584501891,
+   "Amplitud térmica": 25.69330027746773
+  },
+  "cobertura": 60.44362292051756,
+  "confianza": 70.0,
+  "regional": false,
+  "sens_min": 75.32855010768249,
+  "sens_max": 77.7941721996854,
+  "nac": {
+   "precip": {
+    "pct_mas_humedas": 93.70249728555918,
+    "min": 0.27237731218338,
+    "max": 1.35785249869029,
+    "med": 0.825118841036506
+   },
+   "ndvi": {
+    "pct_mas_verdes": 63.19218241042345,
+    "min": 0.0409758426249027,
+    "max": 0.405134543776512,
+    "med": 0.152010045945644
+   },
+   "rango": {
+    "pct_menor": 62.21498371335505,
+    "min": 9.45007934570313,
+    "max": 22.8310230396412,
+    "med": 18.1517333984375
+   },
+   "polvo": {
+    "pct_menor": 71.55266015200868,
+    "min": 3.72800235126647e-09,
+    "max": 9.80747392039423e-08,
+    "med": 7.8657258484327e-09
+   },
+   "dae": {
+    "med": 68.387216258049,
+    "max": 79.72691067771503
+   }
+  },
+  "nota": 9.887622149837133,
+  "P_qgis": 99.2399565689468,
+  "P_dae": 98.26275787187839,
+  "nota_qgis": 9.931596091205211,
+  "nota_dae": 9.843648208469055,
+  "clase_nac": "Análogo alto",
+  "conf_items": [
+   [
+    "Aridez / índice de vegetación (NDVI)",
+    "0.143",
+    "−0.1 a 0.15 → 5",
+    5
+   ],
+   [
+    "Tasa de precipitación real (GPM)",
+    "117 mm/año",
+    "0 a 50 mm/año → 5",
+    0
+   ],
+   [
+    "Amplitud térmica diurna",
+    "18.5 °C",
+    "25 a 250 °C → 5",
+    0
+   ],
+   [
+    "Latitud ecuatorial",
+    "28.62°",
+    "0–28° → 5 · 29–50° → 4",
+    4
+   ],
+   [
+    "Extensión del terreno",
+    "94,848,913 m²",
+    "≥ 747 000 m² → 5",
+    5
+   ]
+  ],
+  "conf": 56.0,
+  "lugares": [
+   {
+    "nombre": "Agua de Soda, B.C.",
+    "lat": 28.627,
+    "lon": -113.323
+   }
+  ],
+  "rank_nota": 5,
+  "int": {
+   "espacial": [
+    70.41337923705578,
+    82.17557461808124
+   ],
+   "pesos": [
+    75.32855010768249,
+    77.7941721996854
+   ],
+   "ambas": [
+    69.43177947252988,
+    83.65487117494146
+   ]
+  },
+  "ena_int": [
+   8.397394136807819,
+   9.965798045602606
+  ],
+  "pct_top": 98.75135722041259,
+  "vars": [
+   {
+    "k": "ndvi",
+    "valor": "0.143",
+    "s": 0.8558719483396366,
+    "pct": 63.19218241042345,
+    "pct_txt": "Menos vegetación que el 63 % de las zonas del país"
+   },
+   {
+    "k": "precip",
+    "valor": "0.32 mm/día",
+    "s": 0.8397300808675705,
+    "pct": 93.70249728555918,
+    "pct_txt": "Más seca que el 94 % de las zonas del país"
+   },
+   {
+    "k": "rango",
+    "valor": "18.5 °C",
+    "s": 0.6423325069366933,
+    "pct": 62.21498371335505,
+    "pct_txt": "Mayor amplitud que el 62 % de las zonas del país"
+   },
+   {
+    "k": "polvo",
+    "valor": "1.15 × 10⁻⁸",
+    "s": null,
+    "pct": 71.55266015200868,
+    "pct_txt": "Más polvo que el 72 % de las zonas del país"
+   }
+  ],
+  "favor": [
+   [
+    "Entre las zonas más análogas del país",
+    "En la Escala Nacional supera al 98.8 % de las 921 zonas candidatas de México."
+   ],
+   [
+    "Hiperaridez",
+    "0.32 mm/día de lluvia: más seca que el 94 % de las zonas candidatas."
+   ],
+   [
+    "Extensión suficiente para aterrizajes",
+    "18.5 km de extensión máxima, que alcanza para una elipse de aterrizaje de hasta 10 km."
+   ],
+   [
+    "Localidades de referencia dentro de la zona",
+    "Agua de Soda, B.C.: puntos de acceso para el trabajo de campo."
+   ]
+  ],
+  "limit": [
+   [
+    "Oscilación térmica menor que la de Marte",
+    "18.5 °C frente a un mínimo de 40 °C en Marte. Es la mayor diferencia con Marte y resta 14.3 puntos al IAM."
+   ],
+   [
+    "Algo de vegetación",
+    "NDVI de 0.143, por encima del rango de referencia de Marte (0.1 o menos)."
+   ],
+   [
+    "Superficie reducida",
+    "95 km², poco espacio para operaciones de gran escala o recorridos largos."
+   ],
+   [
+    "Área natural protegida",
+    "Está en la franja de 28° a 30° N de Baja California que cubre el Área de Protección de Flora y Fauna Valle de los Cirios. Probablemente requiere permisos de CONANP."
+   ],
+   [
+    "Variables por medir",
+    "34 de las 37 variables comparables (geología, suelo, mineralogía, pendiente, cuevas) aún no tienen dato y requieren capas oficiales o campañas de campo."
+   ]
+  ]
+ },
+ {
+  "fid": 743,
+  "nombre": "San Vicente–El Ranchito",
+  "descripcion": "Desde San Vicente hacia el sur hasta El Ranchito, Baja California.",
+  "rank_qgis": 8,
+  "rank_dae10": 8,
+  "rank_dae_nac": 49,
+  "N": 921,
+  "lat": 29.791286431704243,
+  "lon": -115.40656635852125,
+  "area_km2": 593.9308373837575,
+  "geo": {
+   "lat": 29.791286431777813,
+   "lon": -115.4065663588109,
+   "area_km2": 592.1353383213282,
+   "extension_km": 54.791067930588206,
+   "bbox": [
+    -115.51620460000001,
+    29.599881600000003,
+    -115.2412057,
+    30.033213200000002
+   ]
+  },
+  "qgis_index": 0.758520368197209,
+  "qgis_pct": 99.1313789359392,
+  "P": 0.339697989716864,
+  "Nd": 0.153415870733727,
+  "T": 18.0269351662849,
+  "Pv": 1.39985650784831e-08,
+  "sP": 0.830151005141568,
+  "sN": 0.8219470975542433,
+  "sT": 0.633782252771415,
+  "dae": 74.91423319173094,
+  "dae_csv": 74.91423319173094,
+  "aportes": {
+   "Precipitación": 24.90453015424704,
+   "NDVI": 24.6584129266273,
+   "Amplitud térmica": 25.3512901108566
+  },
+  "cobertura": 60.44362292051756,
+  "confianza": 70.0,
+  "regional": false,
+  "sens_min": 73.760632400272,
+  "sens_max": 76.06783398318989,
+  "nac": {
+   "precip": {
+    "pct_mas_humedas": 89.25081433224756,
+    "min": 0.27237731218338,
+    "max": 1.35785249869029,
+    "med": 0.825118841036506
+   },
+   "ndvi": {
+    "pct_mas_verdes": 47.44842562432139,
+    "min": 0.0409758426249027,
+    "max": 0.405134543776512,
+    "med": 0.152010045945644
+   },
+   "rango": {
+    "pct_menor": 45.71118349619978,
+    "min": 9.45007934570313,
+    "max": 22.8310230396412,
+    "med": 18.1517333984375
+   },
+   "polvo": {
+    "pct_menor": 80.56460369163952,
+    "min": 3.72800235126647e-09,
+    "max": 9.80747392039423e-08,
+    "med": 7.8657258484327e-09
+   },
+   "dae": {
+    "med": 68.387216258049,
+    "max": 79.72691067771503
+   }
+  },
+  "nota": 9.721498371335503,
+  "P_qgis": 99.1313789359392,
+  "P_dae": 94.67969598262758,
+  "nota_qgis": 9.921824104234528,
+  "nota_dae": 9.521172638436482,
+  "clase_nac": "Análogo alto",
+  "conf_items": [
+   [
+    "Aridez / índice de vegetación (NDVI)",
+    "0.153",
+    "−0.1 a 0.15 → 5",
+    0
+   ],
+   [
+    "Tasa de precipitación real (GPM)",
+    "124 mm/año",
+    "0 a 50 mm/año → 5",
+    0
+   ],
+   [
+    "Amplitud térmica diurna",
+    "18.0 °C",
+    "25 a 250 °C → 5",
+    0
+   ],
+   [
+    "Latitud ecuatorial",
+    "29.79°",
+    "0–28° → 5 · 29–50° → 4",
+    4
+   ],
+   [
+    "Extensión del terreno",
+    "593,930,837 m²",
+    "≥ 747 000 m² → 5",
+    5
+   ]
+  ],
+  "conf": 36.0,
+  "lugares": [
+   {
+    "nombre": "San Vicente, B.C.",
+    "lat": 29.966,
+    "lon": -115.486
+   },
+   {
+    "nombre": "El Ranchito, B.C.",
+    "lat": 29.638,
+    "lon": -115.298
+   }
+  ],
+  "rank_nota": 9,
+  "int": {
+   "espacial": [
+    69.46514149606227,
+    80.61364713360865
+   ],
+   "pesos": [
+    73.760632400272,
+    76.06783398318989
+   ],
+   "ambas": [
+    68.60063418239355,
+    81.99017018233735
+   ]
+  },
+  "ena_int": [
+   7.830618892508144,
+   9.960912052117264
+  ],
+  "pct_top": 96.90553745928338,
+  "vars": [
+   {
+    "k": "precip",
+    "valor": "0.34 mm/día",
+    "s": 0.830151005141568,
+    "pct": 89.25081433224756,
+    "pct_txt": "Más seca que el 89 % de las zonas del país"
+   },
+   {
+    "k": "ndvi",
+    "valor": "0.153",
+    "s": 0.8219470975542433,
+    "pct": 47.44842562432139,
+    "pct_txt": "Menos vegetación que el 47 % de las zonas del país"
+   },
+   {
+    "k": "rango",
+    "valor": "18.0 °C",
+    "s": 0.633782252771415,
+    "pct": 45.71118349619978,
+    "pct_txt": "Mayor amplitud que el 46 % de las zonas del país"
+   },
+   {
+    "k": "polvo",
+    "valor": "1.40 × 10⁻⁸",
+    "s": null,
+    "pct": 80.56460369163952,
+    "pct_txt": "Más polvo que el 81 % de las zonas del país"
+   }
+  ],
+  "favor": [
+   [
+    "Entre las zonas más análogas del país",
+    "En la Escala Nacional supera al 96.9 % de las 921 zonas candidatas de México."
+   ],
+   [
+    "Polvo atmosférico abundante",
+    "Más polvo que el 81 % de las zonas: buen escenario para probar la mitigación de polvo en paneles, sellos y óptica."
+   ],
+   [
+    "Extensión suficiente para aterrizajes",
+    "54.8 km de extensión máxima, que alcanza para una elipse de aterrizaje de hasta 10 km."
+   ],
+   [
+    "Localidades de referencia dentro de la zona",
+    "San Vicente, B.C., El Ranchito, B.C.: puntos de acceso para el trabajo de campo."
+   ]
+  ],
+  "limit": [
+   [
+    "Oscilación térmica menor que la de Marte",
+    "18.0 °C frente a un mínimo de 40 °C en Marte. Es la mayor diferencia con Marte y resta 14.6 puntos al IAM."
+   ],
+   [
+    "Algo de vegetación",
+    "NDVI de 0.153, por encima del rango de referencia de Marte (0.1 o menos)."
+   ],
+   [
+    "Área natural protegida",
+    "Está cerca del límite noroeste del Área de Protección de Flora y Fauna Valle de los Cirios. Hay que confirmar el traslape con CONANP."
+   ],
+   [
+    "Variables por medir",
+    "34 de las 37 variables comparables (geología, suelo, mineralogía, pendiente, cuevas) aún no tienen dato y requieren capas oficiales o campañas de campo."
+   ]
+  ]
+ },
+ {
+  "fid": 11,
+  "nombre": "Ejido Jacumé",
+  "descripcion": "Principalmente el área del Ejido Jacumé, Baja California.",
+  "rank_qgis": 9,
+  "rank_dae10": 10,
+  "rank_dae_nac": 812,
+  "N": 921,
+  "lat": 32.58095941923077,
+  "lon": -116.16395841923078,
+  "area_km2": 37.6088173762269,
+  "geo": {
+   "lat": 32.58095942075857,
+   "lon": -116.16395842468252,
+   "area_km2": 37.454394802451134,
+   "extension_km": 11.87381299289504,
+   "bbox": [
+    -116.21620180000001,
+    32.5582031,
+    -116.0995356,
+    32.599869600000005
+   ]
+  },
+  "qgis_index": 0.754647511702317,
+  "qgis_pct": 99.0228013029316,
+  "P": 0.691337693196077,
+  "Nd": 0.198544457554817,
+  "T": 18.0465950599084,
+  "Pv": 3.21776791878392e-08,
+  "sP": 0.6543311534019616,
+  "sN": 0.6715184748172767,
+  "sT": 0.63410991766514,
+  "dae": 65.13988555318274,
+  "dae_csv": 65.13988555318275,
+  "aportes": {
+   "Precipitación": 19.629934602058846,
+   "NDVI": 20.1455542445183,
+   "Amplitud térmica": 25.3643967066056
+  },
+  "cobertura": 60.44362292051756,
+  "confianza": 70.0,
+  "regional": false,
+  "sens_min": 64.96699617451587,
+  "sens_max": 65.31277493184963,
+  "nac": {
+   "precip": {
+    "pct_mas_humedas": 66.99239956568948,
+    "min": 0.27237731218338,
+    "max": 1.35785249869029,
+    "med": 0.825118841036506
+   },
+   "ndvi": {
+    "pct_mas_verdes": 7.166123778501629,
+    "min": 0.0409758426249027,
+    "max": 0.405134543776512,
+    "med": 0.152010045945644
+   },
+   "rango": {
+    "pct_menor": 46.36264929424539,
+    "min": 9.45007934570313,
+    "max": 22.8310230396412,
+    "med": 18.1517333984375
+   },
+   "polvo": {
+    "pct_menor": 98.26275787187839,
+    "min": 3.72800235126647e-09,
+    "max": 9.80747392039423e-08,
+    "med": 7.8657258484327e-09
+   },
+   "dae": {
+    "med": 68.387216258049,
+    "max": 79.72691067771503
+   }
+  },
+  "nota": 5.988599348534202,
+  "P_qgis": 99.0228013029316,
+  "P_dae": 11.834961997828447,
+  "nota_qgis": 9.912052117263844,
+  "nota_dae": 2.0651465798045603,
+  "clase_nac": "Análogo moderado",
+  "conf_items": [
+   [
+    "Aridez / índice de vegetación (NDVI)",
+    "0.199",
+    "−0.1 a 0.15 → 5",
+    0
+   ],
+   [
+    "Tasa de precipitación real (GPM)",
+    "252 mm/año",
+    "0 a 50 mm/año → 5",
+    0
+   ],
+   [
+    "Amplitud térmica diurna",
+    "18.0 °C",
+    "25 a 250 °C → 5",
+    0
+   ],
+   [
+    "Latitud ecuatorial",
+    "32.58°",
+    "0–28° → 5 · 29–50° → 4",
+    4
+   ],
+   [
+    "Extensión del terreno",
+    "37,608,817 m²",
+    "≥ 747 000 m² → 5",
+    5
+   ]
+  ],
+  "conf": 36.0,
+  "lugares": [
+   {
+    "nombre": "Ejido Jacumé, B.C.",
+    "lat": 32.581,
+    "lon": -116.157
+   }
+  ],
+  "rank_nota": 10,
+  "int": {
+   "espacial": [
+    59.811050856113425,
+    69.6221427688996
+   ],
+   "pesos": [
+    64.96699617451587,
+    65.31277493184963
+   ],
+   "ambas": [
+    59.5455075442791,
+    69.97124033639828
+   ]
+  },
+  "ena_int": [
+   5.543973941368078,
+   8.64169381107492
+  ],
+  "pct_top": 55.42888165038002,
+  "vars": [
+   {
+    "k": "ndvi",
+    "valor": "0.199",
+    "s": 0.6715184748172767,
+    "pct": 7.166123778501629,
+    "pct_txt": "Menos vegetación que el 7 % de las zonas del país"
+   },
+   {
+    "k": "precip",
+    "valor": "0.69 mm/día",
+    "s": 0.6543311534019616,
+    "pct": 66.99239956568948,
+    "pct_txt": "Más seca que el 67 % de las zonas del país"
+   },
+   {
+    "k": "rango",
+    "valor": "18.0 °C",
+    "s": 0.63410991766514,
+    "pct": 46.36264929424539,
+    "pct_txt": "Mayor amplitud que el 46 % de las zonas del país"
+   },
+   {
+    "k": "polvo",
+    "valor": "3.22 × 10⁻⁸",
+    "s": null,
+    "pct": 98.26275787187839,
+    "pct_txt": "Más polvo que el 98 % de las zonas del país"
+   }
+  ],
+  "favor": [
+   [
+    "Polvo atmosférico abundante",
+    "Más polvo que el 98 % de las zonas: buen escenario para probar la mitigación de polvo en paneles, sellos y óptica."
+   ],
+   [
+    "Extensión suficiente para aterrizajes",
+    "11.9 km de extensión máxima, que alcanza para una elipse de aterrizaje de hasta 10 km."
+   ],
+   [
+    "Localidades de referencia dentro de la zona",
+    "Ejido Jacumé, B.C.: puntos de acceso para el trabajo de campo."
+   ]
+  ],
+  "limit": [
+   [
+    "Oscilación térmica menor que la de Marte",
+    "18.0 °C frente a un mínimo de 40 °C en Marte. Es la mayor diferencia con Marte y resta 14.6 puntos al IAM."
+   ],
+   [
+    "Algo de vegetación",
+    "NDVI de 0.199, por encima del rango de referencia de Marte (0.1 o menos)."
+   ],
+   [
+    "Superficie reducida",
+    "38 km², poco espacio para operaciones de gran escala o recorridos largos."
+   ],
+   [
+    "Analogía con Marte baja para el país",
+    "Su IAM la ubica en el lugar 812 de 921: la vegetación y la lluvia la alejan de Marte."
+   ],
+   [
+    "Variables por medir",
+    "34 de las 37 variables comparables (geología, suelo, mineralogía, pendiente, cuevas) aún no tienen dato y requieren capas oficiales o campañas de campo."
+   ]
+  ]
+ },
+ {
+  "fid": 781,
+  "nombre": "Calamajué–Asamblea",
+  "descripcion": "Desde el sur de Calamajué hacia Asamblea, Baja California; longitud del primer punto por verificar.",
+  "rank_qgis": 10,
+  "rank_dae10": 2,
+  "rank_dae_nac": 2,
+  "N": 921,
+  "lat": 29.547661863524592,
+  "lon": -114.20271941680325,
+  "area_km2": 364.0758871272979,
+  "geo": {
+   "lat": 29.547661863317206,
+   "lon": -114.20271941601449,
+   "area_km2": 362.88347440212965,
+   "extension_km": 43.72021786536235,
+   "bbox": [
+    -114.38287580000001,
+    29.416549000000003,
+    -114.04954380000001,
+    29.683214600000003
+   ]
+  },
+  "qgis_index": 0.754576845247237,
+  "qgis_pct": 98.914223669924,
+  "P": 0.325237199480905,
+  "Nd": 0.101754851211778,
+  "T": 15.4498843834048,
+  "Pv": 1.82829765461924e-08,
+  "sP": 0.8373814002595474,
+  "sN": 0.99415049596074,
+  "sT": 0.59083140639008,
+  "dae": 78.57921314221181,
+  "dae_csv": 78.57921314221181,
+  "aportes": {
+   "Precipitación": 25.121442007786424,
+   "NDVI": 29.8245148788222,
+   "Amplitud térmica": 23.6332562556032
+  },
+  "cobertura": 60.44362292051756,
+  "confianza": 70.0,
+  "regional": false,
+  "sens_min": 76.62960589189144,
+  "sens_max": 80.5288203925322,
+  "nac": {
+   "precip": {
+    "pct_mas_humedas": 92.39956568946798,
+    "min": 0.27237731218338,
+    "max": 1.35785249869029,
+    "med": 0.825118841036506
+   },
+   "ndvi": {
+    "pct_mas_verdes": 95.65689467969598,
+    "min": 0.0409758426249027,
+    "max": 0.405134543776512,
+    "med": 0.152010045945644
+   },
+   "rango": {
+    "pct_menor": 6.514657980456026,
+    "min": 9.45007934570313,
+    "max": 22.8310230396412,
+    "med": 18.1517333984375
+   },
+   "polvo": {
+    "pct_menor": 92.29098805646036,
+    "min": 3.72800235126647e-09,
+    "max": 9.80747392039423e-08,
+    "med": 7.8657258484327e-09
+   },
+   "dae": {
+    "med": 68.387216258049,
+    "max": 79.72691067771503
+   }
+  },
+  "nota": 9.941368078175897,
+  "P_qgis": 98.914223669924,
+  "P_dae": 99.7828447339848,
+  "nota_qgis": 9.90228013029316,
+  "nota_dae": 9.980456026058633,
+  "clase_nac": "Análogo alto",
+  "conf_items": [
+   [
+    "Aridez / índice de vegetación (NDVI)",
+    "0.102",
+    "−0.1 a 0.15 → 5",
+    5
+   ],
+   [
+    "Tasa de precipitación real (GPM)",
+    "119 mm/año",
+    "0 a 50 mm/año → 5",
+    0
+   ],
+   [
+    "Amplitud térmica diurna",
+    "15.4 °C",
+    "25 a 250 °C → 5",
+    0
+   ],
+   [
+    "Latitud ecuatorial",
+    "29.55°",
+    "0–28° → 5 · 29–50° → 4",
+    4
+   ],
+   [
+    "Extensión del terreno",
+    "364,075,887 m²",
+    "≥ 747 000 m² → 5",
+    5
+   ]
+  ],
+  "conf": 56.0,
+  "lugares": [
+   {
+    "nombre": "Punto inicial (corregido: −114.199; el texto dice −144.199)",
+    "lat": 29.444,
+    "lon": -114.199
+   },
+   {
+    "nombre": "Sur de Calamajué, B.C.",
+    "lat": 29.64,
+    "lon": -114.154
+   },
+   {
+    "nombre": "Asamblea, B.C.",
+    "lat": 29.531,
+    "lon": -114.315
+   }
+  ],
+  "rank_nota": 4,
+  "int": {
+   "espacial": [
+    75.12124848514796,
+    80.29368721048037
+   ],
+   "pesos": [
+    76.62960589189144,
+    80.5288203925322
+   ],
+   "ambas": [
+    73.21477701798082,
+    82.05903590182461
+   ]
+  },
+  "ena_int": [
+   9.452768729641694,
+   9.95114006514658
+  ],
+  "pct_top": 99.34853420195441,
+  "vars": [
+   {
+    "k": "ndvi",
+    "valor": "0.102",
+    "s": 0.99415049596074,
+    "pct": 95.65689467969598,
+    "pct_txt": "Menos vegetación que el 96 % de las zonas del país"
+   },
+   {
+    "k": "precip",
+    "valor": "0.33 mm/día",
+    "s": 0.8373814002595474,
+    "pct": 92.39956568946798,
+    "pct_txt": "Más seca que el 92 % de las zonas del país"
+   },
+   {
+    "k": "rango",
+    "valor": "15.4 °C",
+    "s": 0.59083140639008,
+    "pct": 6.514657980456026,
+    "pct_txt": "Mayor amplitud que el 7 % de las zonas del país"
+   },
+   {
+    "k": "polvo",
+    "valor": "1.83 × 10⁻⁸",
+    "s": null,
+    "pct": 92.29098805646036,
+    "pct_txt": "Más polvo que el 92 % de las zonas del país"
+   }
+  ],
+  "favor": [
+   [
+    "Entre las zonas más análogas del país",
+    "En la Escala Nacional supera al 99.3 % de las 921 zonas candidatas de México."
+   ],
+   [
+    "Vegetación muy escasa",
+    "NDVI de 0.102, muy cerca del rango de referencia de Marte (0.1 o menos)."
+   ],
+   [
+    "Hiperaridez",
+    "0.33 mm/día de lluvia: más seca que el 92 % de las zonas candidatas."
+   ],
+   [
+    "Polvo atmosférico abundante",
+    "Más polvo que el 92 % de las zonas: buen escenario para probar la mitigación de polvo en paneles, sellos y óptica."
+   ],
+   [
+    "Extensión suficiente para aterrizajes",
+    "43.7 km de extensión máxima, que alcanza para una elipse de aterrizaje de hasta 10 km."
+   ],
+   [
+    "Localidades de referencia dentro de la zona",
+    "Punto inicial, Sur de Calamajué, B.C., Asamblea, B.C.: puntos de acceso para el trabajo de campo."
+   ]
+  ],
+  "limit": [
+   [
+    "Oscilación térmica menor que la de Marte",
+    "15.4 °C frente a un mínimo de 40 °C en Marte. Es la mayor diferencia con Marte y resta 16.4 puntos al IAM."
+   ],
+   [
+    "Área natural protegida",
+    "Está en la franja de 28° a 30° N de Baja California que cubre el Área de Protección de Flora y Fauna Valle de los Cirios. Probablemente requiere permisos de CONANP."
+   ],
+   [
+    "Variables por medir",
+    "34 de las 37 variables comparables (geología, suelo, mineralogía, pendiente, cuevas) aún no tienen dato y requieren capas oficiales o campañas de campo."
+   ]
+  ]
+ }
+]
